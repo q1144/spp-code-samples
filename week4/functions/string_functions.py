@@ -410,7 +410,7 @@ if len(s) < 1: # set default string
 # print ('my_lower:', my_lower(s))
 # print ('my_upper:', my_upper(s))
 # d = ['a', 'b', 'cc', '22'] ; print ('my_join:', my_join(d, '--'))
-print ('my_istitle:', my_istitle(s))
+# print ('my_istitle:', my_istitle(s))
 # print ('my_split:', my_split(s, '-'))
 # print ('my_isidentifier:', my_isidentifier(s))
 # print ('my_isidentifier:', my_isidentifier(s))
