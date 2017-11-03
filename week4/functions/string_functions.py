@@ -216,7 +216,6 @@ def my_istitle (s):
         if not is_letter and symbol not in separator_list:
             separator_list.append(symbol)
 
-    print (separator_list)
     i = 0  
     # find separators
     while (i < len(s)):
@@ -247,8 +246,6 @@ def my_istitle (s):
             j += 1
     else:
         words_list.append(s) #single word string
-
-    print('words', words_list)
     
     for word in words_list: # check words first letter and tale
         first_l = word[0]
